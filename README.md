@@ -3,14 +3,21 @@ Setup Guide
 Type the following command and press Enter:
 
 npm install -g truffle
+
+
+
 2. Install Dependencies
 Type the following command and press Enter:
 
 npm i
+
+
 3. Compile the Smart Contract
 In the terminal, use the following command to compile the smart contract:
 
 truffle compile
+
+
 4. Deploy the Smart Contract
 After compiling, we need to deploy the smart contract on the blockchain. We are using Ganache, a personal blockchain for Ethereum development used to test and develop smart contracts.
 
@@ -25,9 +32,12 @@ After updating the RPC address, open the terminal and run:
 truffle migrate
 This command will deploy the smart contract to the blockchain.
 
+
 5. Run DApp
 Open a second terminal and enter the client folder:
 cd client
+
+
 Install all packages from package.json:
 npm i
 Install Web3:
